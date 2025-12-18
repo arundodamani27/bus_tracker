@@ -33,22 +33,23 @@ This project focuses on solving real-world public transport problems using a sim
 ---
 
 ## 📁 Project Structure
-BusTracker/
-├── index.php                # Main passenger bus search page
-├── tracker.php              # Bus search logic (stop & time based)
-├── manage_trip.php          # Driver: add/edit trips and route stops
-├── my_trips.php             # Driver: view all assigned trips
-├── add_stop_passenger.php   # Passenger: request a new stop
-├── delete_stop.php          # Delete a stop from a trip
-├── login.php                # Driver login
-├── logout.php               # Driver logout
-├── dashboard.php            # Driver dashboard
-├── db_connect.php           # Database connection configuration
+BusTracker
+|
+├── index.php               
+├── tracker.php             
+├── manage_trip.php          
+├── my_trips.php             
+├── add_stop_passenger.php   
+├── delete_stop.php         
+├── login.php                
+├── logout.php             
+├── dashboard.php            
+├── db_connect.php        
 ├── assets/
-│   ├── css/                 # Custom stylesheets
-│   ├── js/                  # JavaScript files
-│   └── images/              # Images/icons
-└── README.md                # Project documentation
+│   ├── css/           
+│   ├── js/                 
+│   └── images/              
+└── README.md               
 
 
 
